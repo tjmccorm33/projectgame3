@@ -36,13 +36,22 @@
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Ah-Ns-bej"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbp-CS-fDa">
+                                <rect key="frame" x="20" y="558" width="374" height="38.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Vfx-pZ-fB8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="Edi-ZR-Hp3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vbp-CS-fDa" secondAttribute="trailing" constant="20" id="HbN-gk-Zs6"/>
+                            <constraint firstItem="vbp-CS-fDa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="470" id="OIE-7Z-1IG"/>
                             <constraint firstItem="NTy-sp-iJ8" firstAttribute="top" secondItem="g6A-Z1-UT4" secondAttribute="bottom" constant="30" id="Tfb-ju-edD"/>
                             <constraint firstItem="g6A-Z1-UT4" firstAttribute="centerX" secondItem="Vfx-pZ-fB8" secondAttribute="centerX" id="U1D-he-Nn9"/>
                             <constraint firstItem="NTy-sp-iJ8" firstAttribute="centerX" secondItem="g6A-Z1-UT4" secondAttribute="centerX" id="YCZ-Bd-4RJ"/>
+                            <constraint firstItem="vbp-CS-fDa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eZR-Qq-CU3"/>
                             <constraint firstItem="Vfx-pZ-fB8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qOb-mW-C8M"/>
                             <constraint firstItem="g6A-Z1-UT4" firstAttribute="top" secondItem="Vfx-pZ-fB8" secondAttribute="bottom" constant="30" id="wa6-5W-Bb9"/>
                         </constraints>
@@ -53,6 +62,7 @@
                         <outlet property="button1" destination="Vfx-pZ-fB8" id="b8w-Sb-dsK"/>
                         <outlet property="button2" destination="g6A-Z1-UT4" id="AIn-1M-UL1"/>
                         <outlet property="button3" destination="NTy-sp-iJ8" id="l6O-Dm-OfK"/>
+                        <outlet property="scoreLabel" destination="vbp-CS-fDa" id="EhI-eI-GkD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
